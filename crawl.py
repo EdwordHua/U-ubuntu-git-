@@ -11,6 +11,5 @@ def getHTMLText(url):
 	r = requests.get(url)
 	return r.text
 	
-
 html = getHTMLText(url)
 print(html[:1000])
